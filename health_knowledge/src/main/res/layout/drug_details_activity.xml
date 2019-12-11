@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64">
+
+        <ImageView
+            android:id="@+id/drug_details_iv"
+            android:layout_width="@dimen/dp_32"
+            android:layout_height="@dimen/dp_32"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_32"
+            android:background="@drawable/boy" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dp_32"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@drawable/common_nav_message_black_n" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_24"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:text="本模块知识仅供参考，如有需要，请在医生指导下使用"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_10"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40">
+
+                <TextView
+                    android:id="@+id/drug_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:textSize="@dimen/sp_16"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[药品成分]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_component"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[用药禁忌]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_taboo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[功能主治]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_effect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[用法用量]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[药品性状]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[包装规格]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_packing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[不良反应]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_sideeffects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[贮藏条件]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[注意事项]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_mindMatter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="[批准文号]"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/sp_14"></TextView>
+
+            <TextView
+                android:id="@+id/drug_details_approvalNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/sp_12"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guide_pages_five" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="打造你的健康青春树" />
+
+    <Button
+        android:id="@+id/btn_go_homepage"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_mashangjinru"
+        android:text="马上进入"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

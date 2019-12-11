@@ -1,0 +1,1 @@
+include ':app', ':mvp', ':sick_circle', ':health_homepage', ':health_knowledge', ':health_bootpage', ':health_setup'
